@@ -1,11 +1,16 @@
 import React from 'react'
 
-function home() {
-  return (
-    <div>
-      home
-    </div>
-  )
+function PhotoAlbum() {
+  return (<>
+    <h2>오직 둘만의 추억 앨범</h2>
+    <section>
+      <ul>
+        <li>
+          <img src="" alt="" />
+        </li>
+      </ul>
+    </section>
+  </>)
 }
 
-export default home
+export default PhotoAlbum

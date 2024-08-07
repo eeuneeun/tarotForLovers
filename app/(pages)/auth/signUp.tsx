@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Tarot() {
+function SignUp() {
   return (<>
-    <h2>오늘의 타로 카드</h2>
+    <h2>회원가입</h2>
     <section>
       <form action="" method="post">
         <input type="text" />
@@ -11,4 +11,4 @@ function Tarot() {
   </>)
 }
 
-export default Tarot
+export default SignUp
