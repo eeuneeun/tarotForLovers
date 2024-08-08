@@ -23,9 +23,9 @@ export default function Header (props: IHeaderProps) {
                 </button>
             </li>
             <li>
-                <button>
+                <Link href="/auth/signIn">
                     <UserCircleIcon />  
-                </button>  
+                </Link>  
             </li>
         </ul>
     </header>
